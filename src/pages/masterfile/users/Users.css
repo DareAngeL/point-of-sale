@@ -1,0 +1,14 @@
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.panel.active {
+  width: 100%;
+  padding: 0 18px;
+  background-color: white;
+  display: block;
+  overflow: visible;
+}

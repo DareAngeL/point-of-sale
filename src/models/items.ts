@@ -1,0 +1,53 @@
+import { BaseModel } from "./basemodel";
+
+export interface ItemModel extends BaseModel{
+    itmcde : string;
+    itmnum : string;
+    itmdsc : string;
+    itmdscshort : string;
+    itmdscforeign : string;
+    barcde : string;
+    itmtyp : string;
+    itmclacde : string;
+    itemsubclasscde : string;
+    locationcde : string;
+    untmea : string;
+    untcst : number;
+    untprc : number;
+    crilvl : number;
+    itmpaxcount : number;
+    taxcde : string;
+    memc : string;
+    isaddon : boolean;
+    inactive : boolean;
+    chkcombo : boolean;
+    ordercde : string;
+    orderitmid : string;
+    itmqty : number;
+    voidqty : number;
+    grossprc : number;
+    groprc : number;
+    groext : number;
+    extprc : number;
+    vatrte : number;
+    netvatamt : number;
+    vatamt : number;
+    vatamtloc : string;
+    comboid : string;
+    ordertyp: string;
+    vatexempt : string;
+    mainitmcde : string;
+    mainitmid : string;
+    postypcde : string;
+    warcde : string;
+    postrntyp : string;
+    docnum : string
+    billdocnum : string;
+    trndte : string;
+    logtim : string;
+    cashier : string;
+    numpax : number;
+    postrmno : number;
+    brhcde : string;
+    bnkcde : string;
+}

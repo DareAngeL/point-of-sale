@@ -1,0 +1,42 @@
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  color: transparent;
+  background-image: linear-gradient(45deg, #ff00aa, #aaff00, #0000ff, #ff0000, #ffaa00, #00ffaa, #00aaff, #aa00ff);
+  background-size: 200% 200%;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Text glow effect */
+  -webkit-background-clip: text; /* Clip text to background */
+  background-clip: text;
+  white-space: nowrap;
+  animation: moveLeft 5s linear infinite, wave 3s infinite, rainbowGlow 2s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes moveLeft {
+  0% {
+    left: 100%; /* Start off-screen on the right */
+  }
+  100% {
+    left: -100%; /* Move off-screen to the left */
+  }
+}
+@keyframes rainbowGlow {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+@keyframes wave {
+  0%, 100% {
+    transform: translate3d(0, -20px, 0);
+  }
+  50% {
+    transform: translate3d(0, -40px, 0);
+  }
+}

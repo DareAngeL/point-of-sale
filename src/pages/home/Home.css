@@ -1,0 +1,52 @@
+@keyframes anim {
+    from {font-size: 5rem;}
+    to {font-size: 7rem;}
+}
+
+@keyframes anim-back {
+    from {font-size: 7rem;}
+    to {font-size: 5rem;}
+}
+
+@keyframes rotate {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(180deg);}
+}
+
+/* region: Card flipping */
+.flip {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.inner-flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.flip-info {
+  animation: rotate .5s forwards;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+/* endregion: Card flipping */
+
+.box-parent:hover .animation{
+    animation : anim 1s forwards;
+}
+
+.box-parent:not(:hover) .animation{
+    animation : anim-back 1s forwards;
+}

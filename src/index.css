@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/montserrat-v25-latin/montserrat-v25-latin-300.woff2);
+}
+
+:root {
+  /* height: 100%; */
+}
+
+body{
+  margin: 0;
+  height: 100%;
+}
+
+svg { vertical-align: baseline; }
+

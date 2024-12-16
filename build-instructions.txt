@@ -1,0 +1,3 @@
+npm run build
+
+"IF UNABLE TO BUILD DUE TO ERRORS, KINDLY DELETE 'canvas' folder at the 'node_modules' folder"

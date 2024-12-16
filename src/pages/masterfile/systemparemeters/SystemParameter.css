@@ -1,0 +1,10 @@
+/* Hide number arrows */
+#timeinterval::-webkit-outer-spin-button,
+#timeinterval::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#timeinterval[type=number] {
+  -moz-appearance: textfield;
+}

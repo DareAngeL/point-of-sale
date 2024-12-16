@@ -1,0 +1,62 @@
+/* cash declaration */
+
+.btn-declaration {
+  outline: none;
+  border: solid 1px transparent;
+  border-bottom: solid 1px #000;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.arrow-container > * {
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 15px;
+}
+.arrow-up:hover {
+  background-color: #039403;
+  color: #fff;
+}
+.arrow-down:hover {
+  background-color: #940303;
+  color: #fff;
+}
+
+.btn-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-declaration {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+}
+.btn-declaration:hover {
+  border-radius: 5px;
+  background-color: #ccc;
+  border: solid 1px #000;
+}
+.btn-declaration input {
+  cursor: pointer;
+  border-bottom: solid 1px #000;
+  background-color: transparent;
+}

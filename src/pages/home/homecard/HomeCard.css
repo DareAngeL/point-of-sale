@@ -1,0 +1,20 @@
+@keyframes anim {
+    from {font-size: 5rem;}
+    to {font-size: 7rem;}
+}
+
+@keyframes anim-back {
+    from {font-size: 7rem;}
+    to {font-size: 5rem;}
+}
+
+
+
+
+.box-parent:hover .animation{
+    animation : anim 1s forwards;
+}
+
+.box-parent:not(:hover) .animation{
+    animation : anim-back 1s forwards;
+}

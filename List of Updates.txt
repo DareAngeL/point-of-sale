@@ -1,0 +1,53 @@
+List of Updates 
+
+NOV 25 2024
+Fixes zreading process loading for too long.
+
+NOV 21 2024
+
+New Flow on Ordering
+Fixes in Free Transaction
+Fixes in Managers report (Itemized and Free Transaction)
+Fixes in POS Automation Process
+Enhancement on DBCONFIG 
+
+
+Nov 18 2024
+
+Fixes on Search Bar Concerns 
+
+
+Nov 14 2024
+
+Free item enhancement on receips, Official Receipts, Reprint Official Receipts, Void Receipts, Reprint Void Receipts.
+Fix for CHANGE postrntyp no ordocnum 
+Fixes untally combo items qty in zreading report
+Fixes "no tenant code" in sta lucia mall files
+
+
+Nov 13 2024 
+
+Changing the validation of no eod setup 
+
+Nov 12 2024
+
+Fixes in Prompt Message of Qztray  
+Enhancements : Preventive measures for skipped OR and Duplicate OR
+Fixes on Zreading 
+Fixes on Pricelist 
+Fixes on Multiple open transaction
+Fixes on Cancel Transaction
+Fixes on Add Discount
+
+Nov 06 2024
+
+Fixes for KK SM Dagupan - Untallied Net Sales and Discounts in Z Reading and Itemized Report
+Improvement to prevent the duplicate invoice number
+Fixes for Reload Bug 
+Fixes on Combo item
+Fixes for Price Override 
+Fixes for Itemized Report 
+Changing order of ItemClass and Item Subclass to Descending
+Allow user having syncing process
+Grandtotal in Sales Summary 
+View sent file should only be visible if the connected mall is robinson

@@ -1,0 +1,38 @@
+.body-container.result {
+  height: auto;
+  max-height: 34em;
+  overflow: auto;
+}
+
+.body-container.result article header {
+  display: grid;
+  grid-template-columns: 3em 1fr 3em;
+  width: 100%;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+}
+
+.body-container.result div {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.body-container {
+  margin: 1% auto;
+}
+
+.body-container article {
+  border: 1px solid;
+  background: #ffffff;
+}
+
+.body-container article header {
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  height: 40px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+}
